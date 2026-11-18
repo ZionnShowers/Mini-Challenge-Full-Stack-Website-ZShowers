@@ -2,5 +2,5 @@
 - 11/18/2026
 - Mini Challenge Full-Stack Website
 - Our goal was to make a custom website that was based around other mini challenges we did, basically trying to incorporate C# coding into our websites.
-- Reviewer: 
-- Peer Review: 
+- Reviewer: Valery Lot
+- Peer Review: Code looks good and everything works as intended in both desktop and tablet size. I like that you added placeholders on your input form, especially for the Mad Lib portion.
