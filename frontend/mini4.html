@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Challenge #4</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="flex justify-evenly bg-blue-500 font-bold text-white shadow-lg">
+        <a href="index.html" class="text-[30px] lg:text-[48px] flex py-12">&lt;</a>
+        <p class="text-[30px] lg:text-[48px] text-shadow-lg flex py-12">Mini Challenge #4: Magic 8 Ball</p>
+        <p class="text-[48px] text-shadow-lg flex py-12"></p>
+    </header>
+
+    <section class="flex flex-col items-center">
+        <h2 class="text-[32px] mt-12">Ask a YES or NO question:</h2>
+        <form class="flex flex-col" id="magic-form">
+            <input class="bg-gray-300 border text-[24px] py-3 px-3 mt-4" type="text" placeholder="Will I win the lotery?" required>
+            <button class="text-[24px] border mt-4">Ask</button>
+        </form>
+
+        <p class="text-[40px] font-bold mt-23" id="magic-output"></p>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
